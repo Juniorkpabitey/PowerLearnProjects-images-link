@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #004080;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        #gallery div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        #gallery img {
+            width: calc(100.33% - 10px);
+            margin-bottom: 10px;
+        }
+
+        #menu ul {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        #menu li {
+            width: calc(33.33% - 10px);
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head> 
+
+<body>
+
+    <section id="home">
+        <h1>Welcome to the Tech Nature Food Website!</h1>
+        <p>Explore the world of technology with our amazing collection of images.</p>
+        <a href="https://www.freepik.com/photos/technology" target="_blank">
+            <img src="tech1.jpg" alt="Technology Image">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Nature Gallery</h2>
+        <p>Discover the beauty of nature through our gallery.</p>
+        <div>
+            <a href="https://stocksnap.io/search/nature" target="_blank">
+                <img src="nature1.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://stocksnap.io/search/nature" target="_blank">
+                <img src="nature2.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://stocksnap.io/search/nature" target="_blank">
+                <img src="nature3.jpg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h3>Delicious Food Menu</h3>
+        <ul>
+            <li>
+                <a href="https://www.freepik.com/premium-photo/whole-italian-pizza-wooden-table-with-ingredients_8479395.htm" target="_blank">
+                    <img src="pizza.jpg" alt="Food Item 1">
+                    Pizza
+                </a>
+            </li>
+            <li>
+                <a href="https://stock.adobe.com/search/images?k=salad" target="_blank">
+                    <img src="salad.jpg" alt="Food Item 2">
+                    Salad
+                </a>
+            </li>
+            <li>
+                <a href="https://stocksnap.io/search/sushi" target="_blank">
+                    <img src="sushi.jpg" alt="Food Item 3">
+                    Sushi
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
